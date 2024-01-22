@@ -9,7 +9,7 @@ class SafeAreaWidget extends StatelessWidget {
       home: Scaffold(
         body:  SafeArea(
           child: Text(
-              'Welcome to Educative.io! We hope you are enjoying your time exploring answers and learning with us.',
+              'Welcome to Learn With Hasnat! We hope you are enjoying your time exploring answers and learning with us.',
               style: TextStyle(fontSize: 22),
             ),
         ),
