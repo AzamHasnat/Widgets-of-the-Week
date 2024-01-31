@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/wrap.dart';
 
 import 'Widgests of the week/expanded.dart';
 import 'Widgests of the week/safe_area.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ExpandedWidget(),
+      home: const WrapWidget(),
     );
   }
 }
