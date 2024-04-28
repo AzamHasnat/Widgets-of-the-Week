@@ -4,6 +4,7 @@ import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/opaque.da
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/wrap.dart';
 
 import 'Widgests of the week/expanded.dart';
+import 'Widgests of the week/fade_transation.dart';
 import 'Widgests of the week/safe_area.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const OpaqueWidget(),
+      home: const FadeTransationWidget(),
     );
   }
 }

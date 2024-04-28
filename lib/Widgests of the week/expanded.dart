@@ -22,7 +22,7 @@ class ExpandedExample extends StatelessWidget {
     
     return Center(
       child: Column(
-        children: <Widget>[
+        children:[
           Expanded(
             flex: 2,
             child: Container(
@@ -32,7 +32,7 @@ class ExpandedExample extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 2,
+            flex: 3,
             child: Container(
               color: Colors.amber,
               width: 100,
