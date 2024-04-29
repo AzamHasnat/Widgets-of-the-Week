@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/animated_container.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/floating_action_button.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/opaque.dart';
+import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/page_view.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/wrap.dart';
 
 import 'Widgests of the week/expanded.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const FloatingActionButtonWidget(),
+      home: const PageViewWidget(),
     );
   }
 }
