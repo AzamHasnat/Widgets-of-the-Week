@@ -7,7 +7,7 @@ class OpaqueWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Opaque Widget"),
+        title: const Text("Opaque Widget"),
       ),
       body: Center(
         child: Column(
