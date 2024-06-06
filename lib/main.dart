@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/Page%20View/page_view_custom.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/animated_container.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/opaque.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/wrap.dart';
@@ -17,12 +18,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Widget of the Week',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const OpaqueWidget(),
+      home: const PageViewCustom(),
     );
   }
 }
