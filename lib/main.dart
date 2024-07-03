@@ -4,6 +4,7 @@ import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/animated_
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/floating_action_button.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/opaque.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/page_view.dart';
+import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/silver_appbar.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/wrap.dart';
 
 import 'Widgests of the week/expanded.dart';
@@ -24,15 +25,10 @@ class MyApp extends StatelessWidget {
       title: 'Widget of the Week',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 8, 73, 146)),
         useMaterial3: true,
       ),
-<<<<<<< HEAD
-      home: const PageViewCustom(),
-=======
-      debugShowCheckedModeBanner: false,
-      home: const PageViewWidget(),
->>>>>>> b63f0aefd9225ead583eebf449ca6976301ba7d8
+      home: const SilvertAppbar(),
     );
   }
 }
