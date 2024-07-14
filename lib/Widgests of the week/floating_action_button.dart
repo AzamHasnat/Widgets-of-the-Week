@@ -31,8 +31,8 @@ class _FloatingActionButtonWidgetState extends State<FloatingActionButtonWidget>
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-            IconButton(onPressed: (){}, icon: Icon(Icons.heart_broken)),
+            IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+            IconButton(onPressed: (){}, icon: const Icon(Icons.heart_broken)),
           ],
         ),
       ),
