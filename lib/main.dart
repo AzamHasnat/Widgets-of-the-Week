@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/Page%20View/page_view_custom.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/animated_container.dart';
+import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/fitted_box.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/floating_action_button.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/opaque.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/page_view.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 8, 73, 146)),
         useMaterial3: true,
       ),
-      home: const SilvertAppbar(),
+      home: const FittedBoxWidget(),
     );
   }
 }
