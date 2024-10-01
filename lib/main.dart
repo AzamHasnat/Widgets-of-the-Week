@@ -8,9 +8,6 @@ import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/page_view
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/silver_appbar.dart';
 import 'package:flutter_widgets_of_the_week/Widgests%20of%20the%20week/wrap.dart';
 
-import 'Widgests of the week/expanded.dart';
-import 'Widgests of the week/fade_transation.dart';
-import 'Widgests of the week/safe_area.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +23,7 @@ class MyApp extends StatelessWidget {
       title: 'Widget of the Week',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 8, 73, 146)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 8, 73, 146)),
         useMaterial3: true,
       ),
       home: const FittedBoxWidget(),

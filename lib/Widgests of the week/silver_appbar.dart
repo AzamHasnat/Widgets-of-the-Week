@@ -21,9 +21,9 @@ class _SilvertAppbarState extends State<SilvertAppbar> {
               pinned: true,
               flexibleSpace: FlexibleSpaceBar(
                   centerTitle: true,
-                  title: Text("Collapsing Toolbar",
+                  title: const Text("Collapsing Toolbar",
                       style: TextStyle(
-                        color: Color.fromARGB(255, 15, 15, 15),
+                        color: Color.fromARGB(255, 238, 178, 11),
                         fontSize: 16.0,
                       )),
                   background: Image.network(
@@ -33,7 +33,7 @@ class _SilvertAppbarState extends State<SilvertAppbar> {
             ),
           ];
         },
-        body: Center(
+        body: const Center(
           child: Text("Sample Text"),
         ),
       ),
